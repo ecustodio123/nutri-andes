@@ -1,0 +1,76 @@
+.store-shell {
+  min-height: 100svh;
+  background:
+    radial-gradient(circle at top left, rgba(216, 161, 59, 0.18), transparent 32rem),
+    linear-gradient(135deg, rgba(143, 174, 63, 0.08), transparent 40%),
+    #f8f1e3;
+}
+
+.store-shell :where(.kc-store, [data-kafka-commerce]) {
+  min-height: 100svh;
+}
+
+.setup-shell {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  background:
+    radial-gradient(circle at top left, rgba(216, 161, 59, 0.22), transparent 30rem),
+    #f8f1e3;
+}
+
+.setup-panel {
+  width: min(100%, 680px);
+  padding: 32px;
+  border: 1px solid #e5d6be;
+  border-radius: 18px;
+  background: #fff9ec;
+  color: #2f261d;
+  box-shadow: 0 18px 48px rgba(62, 42, 26, 0.12);
+}
+
+.setup-kicker {
+  margin: 0 0 12px;
+  color: #8fae3f;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.setup-panel h1 {
+  margin: 0 0 12px;
+  color: #2f261d;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1;
+}
+
+.setup-panel p {
+  margin: 0;
+  color: #7a6753;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.setup-panel code,
+.setup-panel pre {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+.setup-panel code {
+  color: #3e2a1a;
+  font-weight: 700;
+}
+
+.setup-panel pre {
+  overflow-x: auto;
+  margin: 24px 0 0;
+  padding: 18px;
+  border: 1px solid #e5d6be;
+  border-radius: 12px;
+  background: #f8f1e3;
+  color: #3e2a1a;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
